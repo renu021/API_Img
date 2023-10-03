@@ -1,0 +1,48 @@
+
+.nav-section {
+    background-color: #084b66;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logoText {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-section {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu-section li {
+    font-size: 18px;
+  }
+  
+  .menu-section li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .nav-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .menu-section {
+      flex-direction: column;
+    }
+  
+    .menu-section li {
+      margin-top: 10px;
+    }
+  }
+  
